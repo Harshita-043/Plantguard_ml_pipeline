@@ -1,0 +1,10 @@
+-r requirements-cpu.txt
+# Install PyTorch separately using the command from https://pytorch.org/get-started/locally/
+torch>=2.5,<3
+torchvision>=0.20,<1
+torchaudio>=2.5,<3
+timm>=1.0,<2
+transformers>=4.45,<5
+accelerate>=1.0,<2
+huggingface-hub>=0.25,<2
+datasets>=3.0,<5

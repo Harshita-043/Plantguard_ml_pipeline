@@ -1,0 +1,2 @@
+-r requirements-cpu.txt
+requests>=2.32,<3
