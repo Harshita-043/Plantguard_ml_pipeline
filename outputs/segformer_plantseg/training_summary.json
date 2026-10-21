@@ -1,0 +1,15 @@
+{
+  "best_validation_disease_dice": 0.7870114145119107,
+  "epochs_completed": 18,
+  "arguments": {
+    "data": "data\\processed\\plantseg_binary",
+    "output": "outputs\\segformer_plantseg",
+    "model": "nvidia/mit-b0",
+    "epochs": 30,
+    "batch_size": 2,
+    "size": 512,
+    "lr": 5e-05,
+    "workers": 0,
+    "patience": 6
+  }
+}

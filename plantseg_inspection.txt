@@ -1,0 +1,32 @@
+Dataset root: C:\Users\HP\Desktop\plantguard_ml\data\raw\plantseg
+Total files: 22920
+Images: 22916
+JSON files: 3
+Image extensions: Counter({'.png': 11458, '.jpg': 11458})
+
+Top-level entries:
+  plantsegv3/
+
+--- plantsegv3\annotation_test.json ---
+Keys: ['info', 'licenses', 'images', 'annotations', 'categories']
+images: 2295
+annotations: 15569
+categories: 0
+First image record: {"id": 1, "license": 1, "file_name": "apple_black_rot_143.jpg", "height": 172, "width": 268, "date_captured": ""}
+First annotation: {"id": 1, "image_id": 1, "category_id": 0, "segmentation": [[101.0, 51.0, 95.0, 58.0, 89.0, 59.0, 76.0, 83.0, 72.0, 114.0, 74.0, 125.0, 68.0, 129.0, 67.0, 140.0, 77.0, 150.0, 94.0, 149.0, 92.0, 161.0, 134.0, 164.0, 149.0, 161.0, 164.0, 147.0, 166.0, 130.0, 161.0, 124.0, 154.0, 129.0, 149.0, 128.0, 124.0, 110.0, 129.0, 96.0, 131.0, 75.0, 119.0, 57.0, 112.0, 52.0]], "area": 6634.5, "bbox": [67.0, 51.0, 100.0, 114.0], "iscrowd": 0}
+
+--- plantsegv3\annotation_train.json ---
+Keys: ['info', 'licenses', 'images', 'annotations', 'categories']
+images: 7916
+annotations: 52898
+categories: 0
+First image record: {"id": 1, "license": 1, "file_name": "apple_black_rot_1.jpg", "height": 480, "width": 640, "date_captured": ""}
+First annotation: {"id": 1, "image_id": 1, "category_id": 0, "segmentation": [[644.0, 267.0, 593.0, 302.0, 571.0, 348.0, 577.0, 398.0, 619.0, 446.0, 685.0, 448.0, 715.0, 419.0, 730.0, 378.0, 727.0, 328.0, 697.0, 270.0]], "area": 22568.5, "bbox": [571.0, 267.0, 162.0, 182.0], "iscrowd": 0}
+
+--- plantsegv3\annotation_val.json ---
+Keys: ['info', 'licenses', 'images', 'annotations', 'categories']
+images: 1247
+annotations: 8927
+categories: 0
+First image record: {"id": 1, "license": 1, "file_name": "apple_black_rot_28.jpg", "height": 500, "width": 789, "date_captured": ""}
+First annotation: {"id": 1, "image_id": 1, "category_id": 0, "segmentation": [[513.0, 460.0, 511.0, 475.0, 520.0, 484.0, 550.0, 497.0, 558.0, 491.0, 556.0, 470.0, 543.0, 462.0, 538.0, 455.0, 529.0, 455.0, 528.0, 454.0]], "area": 1315.0, "bbox": [511.0, 454.0, 48.0, 44.0], "iscrowd": 0}
