@@ -1,0 +1,24 @@
+{
+  "fp32_model": "C:\\Users\\HP\\Desktop\\plantguard_ml\\artifacts\\optimized\\segformer\\onnx\\segformer_fp32_512.onnx",
+  "int8_model": "C:\\Users\\HP\\Desktop\\plantguard_ml\\artifacts\\optimized\\segformer\\onnx_int8\\segformer_dynamic_int8.onnx",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "fp32_size_bytes": 15035034,
+  "int8_size_bytes": 7907030,
+  "fp32_cpu_benchmark": {
+    "median_seconds": 0.10644354999931238,
+    "mean_seconds": 0.153806749999967,
+    "min_seconds": 0.054395900000599795
+  },
+  "int8_cpu_benchmark": {
+    "median_seconds": 0.05323200000111683,
+    "mean_seconds": 0.30799352000049113,
+    "min_seconds": 0.047152200000709854
+  },
+  "logits_mean_absolute_difference": 0.03160465136170387,
+  "logits_max_absolute_difference": 0.2866983413696289,
+  "pixel_mask_agreement": 0.9994049072265625,
+  "fp32_diseased_pixel_pct": 25.15411376953125,
+  "int8_diseased_pixel_pct": 25.110626220703125
+}

@@ -1,0 +1,264 @@
+{
+  "dataset_archive": "data\\raw\\plantvillage_hf\\data.zip",
+  "dataset_note": "Deterministic capped sample from PlantVillage ZIP. Not an independent held-out test unless split provenance is verified.",
+  "seed": 42,
+  "max_images_per_class": 30,
+  "images_evaluated": 1140,
+  "images_skipped": 0,
+  "classes_with_images": 38,
+  "class_count": 38,
+  "batch_size": 4,
+  "fp32_model": "artifacts\\optimized\\dino_disease\\onnx\\dino_disease_fp32_224.onnx",
+  "int8_model": "artifacts\\optimized\\dino_disease\\onnx_selective_int8\\dino_disease_mlp_int8.onnx",
+  "fp32_size_mib": 330.5494270324707,
+  "int8_size_mib": 168.86536026000977,
+  "size_reduction_percent": 48.91373378680166,
+  "fp32_top1_accuracy": 0.9491228070175438,
+  "int8_top1_accuracy": 0.08157894736842106,
+  "fp32_int8_prediction_agreement": 0.0824561403508772,
+  "fp32_mean_max_probability": 0.8322447153349553,
+  "int8_mean_max_probability": 0.4063218297090158,
+  "probability_max_abs_error": 0.9978483455526299,
+  "probability_mean_abs_error": 0.04494606656540676,
+  "logits_max_abs_error": 11.345897674560547,
+  "embeddings_max_abs_error": 11.325080871582031,
+  "embeddings_mean_abs_error": 1.6762946844100952,
+  "fp32_ood_rate": 0.043859649122807015,
+  "int8_ood_rate": 1.0,
+  "ood_decision_agreement": 0.043859649122807015,
+  "ood_threshold": 2474.64404296875,
+  "ood_distance_mean_abs_difference": 10991.494945586132,
+  "fp32_median_latency_ms_per_image": 88.8090249995912,
+  "int8_median_latency_ms_per_image": 53.60044999997626,
+  "per_class": {
+    "Apple___Apple_scab": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.03333333333333333,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Apple___Black_rot": {
+      "images": 30,
+      "fp32_accuracy": 0.9666666666666667,
+      "int8_accuracy": 1.0,
+      "prediction_agreement": 0.9666666666666667
+    },
+    "Apple___Cedar_apple_rust": {
+      "images": 30,
+      "fp32_accuracy": 0.9333333333333333,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Apple___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.03333333333333333,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Blueberry___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.3,
+      "prediction_agreement": 0.3
+    },
+    "Cherry_(including_sour)___Powdery_mildew": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.03333333333333333,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Cherry_(including_sour)___healthy": {
+      "images": 30,
+      "fp32_accuracy": 0.9666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": {
+      "images": 30,
+      "fp32_accuracy": 0.8666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Corn_(maize)___Common_rust_": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Corn_(maize)___Northern_Leaf_Blight": {
+      "images": 30,
+      "fp32_accuracy": 0.5666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Corn_(maize)___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.8666666666666667,
+      "prediction_agreement": 0.8666666666666667
+    },
+    "Grape___Black_rot": {
+      "images": 30,
+      "fp32_accuracy": 0.9666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Grape___Esca_(Black_Measles)": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Grape___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Orange___Haunglongbing_(Citrus_greening)": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.1,
+      "prediction_agreement": 0.1
+    },
+    "Peach___Bacterial_spot": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.03333333333333333,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Peach___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Pepper,_bell___Bacterial_spot": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Pepper,_bell___healthy": {
+      "images": 30,
+      "fp32_accuracy": 0.9666666666666667,
+      "int8_accuracy": 0.13333333333333333,
+      "prediction_agreement": 0.13333333333333333
+    },
+    "Potato___Early_blight": {
+      "images": 30,
+      "fp32_accuracy": 0.9666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Potato___Late_blight": {
+      "images": 30,
+      "fp32_accuracy": 0.9333333333333333,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Potato___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Raspberry___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Soybean___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Squash___Powdery_mildew": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.06666666666666667,
+      "prediction_agreement": 0.06666666666666667
+    },
+    "Strawberry___Leaf_scorch": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.03333333333333333,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Strawberry___healthy": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Tomato___Bacterial_spot": {
+      "images": 30,
+      "fp32_accuracy": 0.6333333333333333,
+      "int8_accuracy": 0.06666666666666667,
+      "prediction_agreement": 0.06666666666666667
+    },
+    "Tomato___Early_blight": {
+      "images": 30,
+      "fp32_accuracy": 0.9,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Tomato___Late_blight": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.2,
+      "prediction_agreement": 0.2
+    },
+    "Tomato___Leaf_Mold": {
+      "images": 30,
+      "fp32_accuracy": 0.9,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Tomato___Septoria_leaf_spot": {
+      "images": 30,
+      "fp32_accuracy": 0.9,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Tomato___Spider_mites Two-spotted_spider_mite": {
+      "images": 30,
+      "fp32_accuracy": 0.9666666666666667,
+      "int8_accuracy": 0.16666666666666666,
+      "prediction_agreement": 0.16666666666666666
+    },
+    "Tomato___Target_Spot": {
+      "images": 30,
+      "fp32_accuracy": 0.8666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "images": 30,
+      "fp32_accuracy": 1.0,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.0
+    },
+    "Tomato___Tomato_mosaic_virus": {
+      "images": 30,
+      "fp32_accuracy": 0.8666666666666667,
+      "int8_accuracy": 0.0,
+      "prediction_agreement": 0.03333333333333333
+    },
+    "Tomato___healthy": {
+      "images": 30,
+      "fp32_accuracy": 0.9,
+      "int8_accuracy": 0.03333333333333333,
+      "prediction_agreement": 0.03333333333333333
+    }
+  },
+  "production_approved": false
+}

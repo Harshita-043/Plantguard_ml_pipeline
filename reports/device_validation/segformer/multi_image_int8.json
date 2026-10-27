@@ -1,0 +1,190 @@
+{
+  "images_tested": 20,
+  "mean_pixel_agreement": 0.9983963012695313,
+  "minimum_pixel_agreement": 0.9950828552246094,
+  "mean_logit_difference": 0.038575878646224734,
+  "fp32_median_seconds": 0.23724554999989778,
+  "int8_median_seconds": 0.22970549999899958,
+  "per_image": [
+    {
+      "image": "0000000_apple_black_rot_143.jpg",
+      "pixel_agreement": 0.9994049072265625,
+      "mean_abs_logit_diff": 0.03160465136170387,
+      "fp32_seconds": 0.24190730000009353,
+      "int8_seconds": 0.26750319999882777,
+      "fp32_disease_pct": 25.15411376953125,
+      "int8_disease_pct": 25.110626220703125
+    },
+    {
+      "image": "0000001_apple_black_rot_144.jpg",
+      "pixel_agreement": 0.9962120056152344,
+      "mean_abs_logit_diff": 0.07221915572881699,
+      "fp32_seconds": 0.35453229999984615,
+      "int8_seconds": 0.2891150000014022,
+      "fp32_disease_pct": 22.362518310546875,
+      "int8_disease_pct": 22.028732299804688
+    },
+    {
+      "image": "0000002_apple_black_rot_149.jpg",
+      "pixel_agreement": 0.9950828552246094,
+      "mean_abs_logit_diff": 0.05645069479942322,
+      "fp32_seconds": 0.20491169999877457,
+      "int8_seconds": 0.2590015999994648,
+      "fp32_disease_pct": 36.33842468261719,
+      "int8_disease_pct": 36.824798583984375
+    },
+    {
+      "image": "0000003_apple_black_rot_167.jpg",
+      "pixel_agreement": 0.9984283447265625,
+      "mean_abs_logit_diff": 0.034170862287282944,
+      "fp32_seconds": 0.2884647999999288,
+      "int8_seconds": 0.29751840000062657,
+      "fp32_disease_pct": 5.0266265869140625,
+      "int8_disease_pct": 4.8709869384765625
+    },
+    {
+      "image": "0000004_apple_black_rot_175.jpg",
+      "pixel_agreement": 0.9997138977050781,
+      "mean_abs_logit_diff": 0.027038298547267914,
+      "fp32_seconds": 0.21897789999820816,
+      "int8_seconds": 0.2533108000006905,
+      "fp32_disease_pct": 7.9013824462890625,
+      "int8_disease_pct": 7.8857421875
+    },
+    {
+      "image": "0000005_apple_black_rot_18.jpg",
+      "pixel_agreement": 0.9998550415039062,
+      "mean_abs_logit_diff": 0.02349286526441574,
+      "fp32_seconds": 0.2784914999992907,
+      "int8_seconds": 0.3196054000000004,
+      "fp32_disease_pct": 3.0609130859375,
+      "int8_disease_pct": 3.070068359375
+    },
+    {
+      "image": "0000006_apple_black_rot_7.jpg",
+      "pixel_agreement": 0.9999198913574219,
+      "mean_abs_logit_diff": 0.01851760223507881,
+      "fp32_seconds": 0.2700918999998976,
+      "int8_seconds": 0.18197679999866523,
+      "fp32_disease_pct": 3.2436370849609375,
+      "int8_disease_pct": 3.237152099609375
+    },
+    {
+      "image": "0000007_apple_black_rot_google_0001.jpg",
+      "pixel_agreement": 0.9970741271972656,
+      "mean_abs_logit_diff": 0.027461562305688858,
+      "fp32_seconds": 0.23112719999880937,
+      "int8_seconds": 0.13952769999923476,
+      "fp32_disease_pct": 6.801605224609375,
+      "int8_disease_pct": 6.5143585205078125
+    },
+    {
+      "image": "0000008_apple_black_rot_google_0008.jpg",
+      "pixel_agreement": 0.9998817443847656,
+      "mean_abs_logit_diff": 0.028497813269495964,
+      "fp32_seconds": 0.28848979999929725,
+      "int8_seconds": 0.2509235000015906,
+      "fp32_disease_pct": 5.4218292236328125,
+      "int8_disease_pct": 5.428314208984375
+    },
+    {
+      "image": "0000009_apple_black_rot_google_0037.jpg",
+      "pixel_agreement": 0.999603271484375,
+      "mean_abs_logit_diff": 0.023590993136167526,
+      "fp32_seconds": 0.22139019999849552,
+      "int8_seconds": 0.20661329999893496,
+      "fp32_disease_pct": 6.3083648681640625,
+      "int8_disease_pct": 6.3007354736328125
+    },
+    {
+      "image": "0000010_apple_black_rot_google_0052.jpg",
+      "pixel_agreement": 0.9988975524902344,
+      "mean_abs_logit_diff": 0.024643078446388245,
+      "fp32_seconds": 0.2170858000008593,
+      "int8_seconds": 0.2071658999993815,
+      "fp32_disease_pct": 6.9797515869140625,
+      "int8_disease_pct": 7.0343017578125
+    },
+    {
+      "image": "0000011_apple_black_rot_google_0058.jpg",
+      "pixel_agreement": 0.9998550415039062,
+      "mean_abs_logit_diff": 0.021488789469003677,
+      "fp32_seconds": 0.2514124000008451,
+      "int8_seconds": 0.31650359999912325,
+      "fp32_disease_pct": 4.3537139892578125,
+      "int8_disease_pct": 4.3453216552734375
+    },
+    {
+      "image": "0000012_apple_black_rot_google_0077.jpg",
+      "pixel_agreement": 0.9998359680175781,
+      "mean_abs_logit_diff": 0.029413700103759766,
+      "fp32_seconds": 0.2186995999982173,
+      "int8_seconds": 0.18535809999957564,
+      "fp32_disease_pct": 0.563812255859375,
+      "int8_disease_pct": 0.5496978759765625
+    },
+    {
+      "image": "0000013_apple_black_rot_google_0097.jpg",
+      "pixel_agreement": 0.9990005493164062,
+      "mean_abs_logit_diff": 0.044821638613939285,
+      "fp32_seconds": 0.23258379999970202,
+      "int8_seconds": 0.20146899999963352,
+      "fp32_disease_pct": 1.025390625,
+      "int8_disease_pct": 0.925445556640625
+    },
+    {
+      "image": "0000014_apple_black_rot_google_0113.jpg",
+      "pixel_agreement": 0.9982490539550781,
+      "mean_abs_logit_diff": 0.03184758871793747,
+      "fp32_seconds": 0.26240660000075877,
+      "int8_seconds": 0.2273578999993333,
+      "fp32_disease_pct": 7.346343994140625,
+      "int8_disease_pct": 7.5046539306640625
+    },
+    {
+      "image": "0000015_apple_black_rot_google_0156.jpg",
+      "pixel_agreement": 0.9960517883300781,
+      "mean_abs_logit_diff": 0.043564967811107635,
+      "fp32_seconds": 0.19414490000053775,
+      "int8_seconds": 0.1532675999987987,
+      "fp32_disease_pct": 20.70159912109375,
+      "int8_disease_pct": 20.608901977539062
+    },
+    {
+      "image": "0000016_apple_black_rot_google_0160.jpg",
+      "pixel_agreement": 0.9957695007324219,
+      "mean_abs_logit_diff": 0.06785307824611664,
+      "fp32_seconds": 0.25775590000012016,
+      "int8_seconds": 0.22584529999949154,
+      "fp32_disease_pct": 18.600082397460938,
+      "int8_disease_pct": 18.264007568359375
+    },
+    {
+      "image": "0000017_apple_mosaic_virus_100.jpg",
+      "pixel_agreement": 0.99920654296875,
+      "mean_abs_logit_diff": 0.06193190813064575,
+      "fp32_seconds": 0.1882141000005504,
+      "int8_seconds": 0.16043010000066715,
+      "fp32_disease_pct": 33.31871032714844,
+      "int8_disease_pct": 33.25691223144531
+    },
+    {
+      "image": "0000018_apple_mosaic_virus_16.jpg",
+      "pixel_agreement": 0.9983711242675781,
+      "mean_abs_logit_diff": 0.052378565073013306,
+      "fp32_seconds": 0.2321131000007881,
+      "int8_seconds": 0.246835199999623,
+      "fp32_disease_pct": 33.4747314453125,
+      "int8_disease_pct": 33.34083557128906
+    },
+    {
+      "image": "0000019_apple_mosaic_virus_18.jpg",
+      "pixel_agreement": 0.9975128173828125,
+      "mean_abs_logit_diff": 0.050529759377241135,
+      "fp32_seconds": 0.311298300000999,
+      "int8_seconds": 0.23205309999866586,
+      "fp32_disease_pct": 16.5985107421875,
+      "int8_disease_pct": 16.414642333984375
+    }
+  ]
+}

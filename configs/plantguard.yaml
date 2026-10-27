@@ -14,7 +14,7 @@ paths:
 
 sam2:
   model_size: base_plus
-  config: configs/sam2.1/sam2.1_hiera_b+.yaml
+  config: external/sam2/sam2/configs/sam2.1/sam2.1_hiera_b+.yaml
   score_threshold: 0.45
   min_area_ratio: 0.01
   max_area_ratio: 0.85

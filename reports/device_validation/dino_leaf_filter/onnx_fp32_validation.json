@@ -1,0 +1,32 @@
+{
+  "checkpoint": "C:\\Users\\HP\\Desktop\\plantguard_ml\\artifacts\\dino_leaf_filter\\dino_leaf_filter.pt",
+  "onnx_path": "C:\\Users\\HP\\Desktop\\plantguard_ml\\artifacts\\optimized\\dino_leaf_filter\\onnx\\dino_leaf_filter_fp32_224.onnx",
+  "backbone_name": "dinov2_vits14",
+  "classes": [
+    "negative",
+    "positive"
+  ],
+  "image_size": 224,
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "onnx_size_bytes": 88340854,
+  "torch_logit": [
+    -5.3225603103637695
+  ],
+  "onnx_logit": [
+    -5.32256555557251
+  ],
+  "torch_positive_probability": [
+    0.004856542218476534
+  ],
+  "onnx_positive_probability": [
+    0.004856516607105732
+  ],
+  "max_abs_logit_difference": 5.245208740234375e-06,
+  "mean_abs_logit_difference": 5.245208740234375e-06,
+  "max_abs_probability_difference": 2.561137080192566e-08,
+  "decision_threshold": 0.5,
+  "decision_agreement": true,
+  "onnx_cpu_inference_seconds": 0.026456200001121033
+}

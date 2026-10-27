@@ -1,0 +1,34 @@
+[
+  {
+    "points_per_side": 8,
+    "prompt_points": 64,
+    "mask_count": 12,
+    "latency_seconds": 2.144,
+    "top_10_mask_areas": [
+      36364,
+      21422,
+      13479,
+      6448,
+      5519,
+      5450,
+      3815,
+      3511,
+      632,
+      487
+    ]
+  },
+  {
+    "points_per_side": 4,
+    "prompt_points": 16,
+    "mask_count": 6,
+    "latency_seconds": 0.763,
+    "top_10_mask_areas": [
+      36959,
+      21439,
+      13544,
+      6450,
+      5409,
+      3496
+    ]
+  }
+]

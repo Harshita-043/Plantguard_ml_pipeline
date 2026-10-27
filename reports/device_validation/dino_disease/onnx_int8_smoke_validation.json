@@ -1,0 +1,27 @@
+{
+  "fp32_model": "artifacts\\optimized\\dino_disease\\onnx\\dino_disease_fp32_224.onnx",
+  "int8_model": "artifacts\\optimized\\dino_disease\\onnx_int8\\dino_disease_dynamic_int8.onnx",
+  "quantization": "dynamic weight-only INT8",
+  "weight_type": "QInt8",
+  "quantized_operators": [
+    "MatMul",
+    "Gemm"
+  ],
+  "fp32_size_bytes": 346606196,
+  "int8_size_bytes": 92260326,
+  "size_reduction_percent": 73.382,
+  "logits_max_abs_error_random_input": 5.3681960105896,
+  "embedding_max_abs_error_random_input": 5.96098518371582,
+  "probability_max_abs_error_random_input": 0.18548783659934998,
+  "fp32_random_input_top1": 31,
+  "int8_random_input_top1": 10,
+  "random_input_top1_agrees": false,
+  "fp32_providers": [
+    "CPUExecutionProvider"
+  ],
+  "int8_providers": [
+    "CPUExecutionProvider"
+  ],
+  "real_image_validation_completed": false,
+  "production_approved": false
+}
